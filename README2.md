@@ -64,8 +64,8 @@ This system allows users to add, remove, sort, and search for books stored in me
 1. Run the program in the `BookManager.java` file
 2. Choose between the prompted options:
    
-           1) Add  
-           2) Remove  
+           1) **Add** - Choose book type (Fiction/Textbook) and provide details
+           2) **Remove** - Remove a book by entering its ISBN
            3) Display  
            4) Search  
            5) Exit
