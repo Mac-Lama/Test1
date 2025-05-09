@@ -69,3 +69,11 @@ This system allows users to add, remove, sort, and search for books stored in me
            3) Display  
            4) Search  
            5) Exit
+
+### Menu Options:
+
+- **Add** – Choose book type (Fiction/Textbook) and provide details
+- **Remove** – Remove a book by entering its ISBN
+- **Display** – Display all books sorted by Title or Author
+- **Search** – Recursively search for a book by title
+- **Exit** – Saves the books to `books.txt` and exits
