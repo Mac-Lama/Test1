@@ -17,3 +17,41 @@ This system allows users to add, remove, sort, and search for books stored in me
     - Interface (`Comparable<Book>`) for sorting
     - Recursion for title-based search
     - Exception handling for file and input errors
+
+---
+
+## UML Diagram
+
+```plaintext
+           ------------------
+           |   <<abstract>> |
+           |     Book       |
+           ------------------
+           | - title        |
+           | - author       |
+           | - year         |
+           | - isbn         |
+           ------------------
+           | +getTitle()    |
+           | +getAuthor()   |
+           | +getYear()     |
+           | +getIsbn()     |
+           | +compareTo()   |
+           | +equals()      |
+           | +toString()    |
+           | +toDataString()|
+           ------------------
+                    |
+        --------------------------
+        |                        |
+------------------      -----------------
+|  FictionBook    |     |   Textbook     |
+------------------     ------------------
+| - genre         |     | - subject      |
+|                 |     | - edition      |
+------------------      -------------------
+| +getGenre()     |     | +getSubject()   |
+| +toString()     |     | +getEdition()   |
+| +toDataString() |     | +toString()     |
+-------------------     | +toDataString() |
+                        -------------------
