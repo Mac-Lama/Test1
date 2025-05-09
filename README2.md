@@ -69,6 +69,8 @@ This system allows users to add, remove, sort, and search for books stored in me
            3) Display – Display all books sorted by Title or Author
            4) Search - Recursively search for a book by title
            5) Exit – Saves the books to `books.txt` and exits
+   
+---
 
 ## Data Saving
 
@@ -82,12 +84,12 @@ Books are uploaded and saved in a file called `books.txt`. Data is automatically
 1) Add  2) Remove  3) Display  4) Search  5) Exit
 Choose: 1
 Type (1) Fiction (2) Textbook: 1
-Title: The Hobbit
-Author: J.R.R. Tolkien
-Year: 1937
-ISBN: 9780547928227
-Genre: Fantasy
-Added: The Hobbit | J.R.R. Tolkien | 1937 | ISBN:9780547928227 | Genre:Fantasy
+Title: Ready Player One
+Author: Ernest Cline
+Year: 2011
+ISBN: 97803078877443
+Genre: Science Fiction
+Added: Ready Player One | Ernest Cline | 2011 | ISBN: 97803078877443 | Genre: Science Fiction
 ```
 
 ---
