@@ -23,8 +23,8 @@ This system also:
 -  **Search Books** – Recursively search for a book by title
 -  **Persistent Storage** – Books are saved and loaded from `books.txt`
 -  **OOP Principles Used**:
-  - Inheritance (`Book`, `FictionBook`, `Textbook`)
-  - Polymorphism (processing books through the base class)
-  - Interface (`Comparable<Book>`) for sorting
-  - Recursion for title-based search
-  - Exception handling for file and input errors
+    - Inheritance (`Book`, `FictionBook`, `Textbook`)
+    - Polymorphism (processing books through the base class)
+    - Interface (`Comparable<Book>`) for sorting
+    - Recursion for title-based search
+    - Exception handling for file and input errors
