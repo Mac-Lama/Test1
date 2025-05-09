@@ -24,7 +24,7 @@ This system allows users to add, remove, sort, and search for books stored in me
 
 ```plaintext
            ------------------
-           |   <<abstract>> |
+           |  <<abstract>>  |
            |     Book       |
            ------------------
            | - title        |
@@ -46,7 +46,7 @@ This system allows users to add, remove, sort, and search for books stored in me
         |                        |
 ------------------      -----------------
 |  FictionBook    |     |   Textbook     |
-------------------     ------------------
+------------------      ------------------
 | - genre         |     | - subject      |
 |                 |     | - edition      |
 ------------------      -------------------
@@ -55,3 +55,9 @@ This system allows users to add, remove, sort, and search for books stored in me
 | +toDataString() |     | +toString()     |
 -------------------     | +toDataString() |
                         -------------------
+
+---
+
+## How to Run
+
+
