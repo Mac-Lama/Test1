@@ -70,4 +70,24 @@ This system allows users to add, remove, sort, and search for books stored in me
            4) Search - Recursively search for a book by title
            5) Exit – Saves the books to `books.txt` and exits
 
+## Data Saving
 
+Books are uploaded and saved in a file called `books.txt`. Data is automatically loaded on startup and saved on exit.
+
+---
+
+## Sample
+
+```
+1) Add  2) Remove  3) Display  4) Search  5) Exit
+Choose: 1
+Type (1) Fiction (2) Textbook: 1
+Title: The Hobbit
+Author: J.R.R. Tolkien
+Year: 1937
+ISBN: 9780547928227
+Genre: Fantasy
+Added: The Hobbit | J.R.R. Tolkien | 1937 | ISBN:9780547928227 | Genre:Fantasy
+```
+
+---
