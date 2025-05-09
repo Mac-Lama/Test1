@@ -55,9 +55,10 @@ This system allows users to add, remove, sort, and search for books stored in me
 | +toDataString() |     | +toString()     |
 -------------------     | +toDataString() |
                         -------------------
+```
 
 ---
 
 ## How to Run
 
-
+1. Run the program in the 'BookManager.java' file
